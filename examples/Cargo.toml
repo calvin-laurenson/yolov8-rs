@@ -1,0 +1,18 @@
+[package]
+name = "examples"
+version = "0.0.0"
+publish = false
+edition = "2021"
+
+[dev-dependencies]
+clap = { version = "4.3.19", features = ["derive"] }
+ort = "1.15.2"
+yolov8-rs = { path = "../yolov8-rs" }
+
+[[example]]
+name = "cli"
+path = "cli.rs"
+
+[dependencies]
+image = "0.24.6"
+imageproc = "0.23.0"

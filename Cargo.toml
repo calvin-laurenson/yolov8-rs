@@ -1,0 +1,6 @@
+[workspace]
+resolver = "2"
+members = [
+    "yolov8-rs",
+    "examples"
+]
