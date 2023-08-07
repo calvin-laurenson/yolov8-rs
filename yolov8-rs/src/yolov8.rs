@@ -7,8 +7,6 @@ use ort::Value;
 use ort::{Environment, SessionBuilder};
 use std::collections::HashMap;
 use std::num::ParseIntError;
-/// This file runs object detection on images using YOLOv8.
-/// The code is heavily based on https://github.com/AndreyGermanov/yolov8_onnx_rust
 use std::{path::Path, sync::Arc, vec};
 use thiserror::Error;
 
